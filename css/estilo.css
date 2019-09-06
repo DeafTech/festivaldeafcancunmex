@@ -1,0 +1,58 @@
+iframe {
+    background: #ffffff91;
+}
+
+.intro-lead-in {
+    font-style: normal !important;
+    font-family: Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji' !important;
+    font-weight: 700;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+section.py-5 img {
+    width: 150px;
+    image-rendering: pixelated;
+}
+img.img-fluid.d-block.mx-auto.grand {
+    margin-top: 10px;
+}
+
+img.img-fluid.d-block.mx-auto.hyatt {
+    margin-top: 43px;
+}
+
+img.img-fluid.d-block.mx-auto.aloft {
+    margin-top: 39px;
+}
+a.navbar-brand img {
+    width: 50px;
+}
+img.img-fluid.d-block.mx-auto.lsm {
+    margin-top: 24px;
+}
+
+img.img-fluid.d-block.mx-auto.senas {
+    margin-top: 16px;
+    width: 200px;
+}
+
+img.img-fluid.d-block.mx-auto.deaftech {
+    width: 120px;
+    margin-top: 28px;
+}
+
+img.img-fluid.d-block.mx-auto.cancun {
+    margin-top: 0px;
+    width: 190px;
+}
