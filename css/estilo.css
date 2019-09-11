@@ -89,3 +89,37 @@ img.img-fluid.d-block.mx-auto.cancun {
 section#team a {
     margin: auto;
 }
+
+
+.col-md-4.col-sm-6.portfolio-item img {
+    margin: auto;
+    display: block;
+}
+
+@media (max-width: 500px) {
+    a.navbar-brand.js-scroll-trigger {
+        display: none;
+    }
+    nav#mainNav {
+        padding: 10px !important;
+    }
+    
+    a.navbar-brand {
+        margin: auto;
+    }
+  }
+
+  section#theaters .img-fluid {
+    max-width: 50% !important;
+}
+section#theaters a {
+    margin: auto;
+}
+
+
+section#conference .img-fluid {
+    max-width: 50% !important;
+}
+section#conference a {
+    margin: auto;
+}
