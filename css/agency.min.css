@@ -101,12 +101,12 @@ img::-moz-selection{
     color:#fec503
 }
 #mainNav .navbar-nav .nav-item .nav-link{
-    font-size:90%;
+    font-size: 70%;
     font-weight:400;
     padding:.75em 0;
     letter-spacing:1px;
     color:#fff;
-    font-family:Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
+    font-family:Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
 }
 #mainNav .navbar-nav .nav-item .nav-link.active,#mainNav .navbar-nav .nav-item .nav-link:hover{
     color:#fed136
@@ -463,7 +463,7 @@ ul.social-buttons li a:active,ul.social-buttons li a:focus,ul.social-buttons li 
     right:0;
     margin:0 0 15px
 }
-#conference .conference-item .conference-link{
+.conference-item .conference-link{
     position:relative;
     display:block;
     max-width:400px;
@@ -716,4 +716,7 @@ ul.social-buttons li a:active,ul.social-buttons li a:focus,ul.social-buttons li 
     -webkit-transform:rotate(90deg);
     transform:rotate(90deg);
     background-color:#212529
+}
+.intro-text-centro {
+    text-align: center;
 }

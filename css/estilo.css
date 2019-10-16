@@ -123,3 +123,6 @@ section#conference .img-fluid {
 section#conference a {
     margin: auto;
 }
+img.img-fluid.card {
+    margin: auto;
+}
