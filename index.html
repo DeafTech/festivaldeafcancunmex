@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -38,395 +37,467 @@
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
   <!-- Custom styles for this template -->
   <link href="css/agency.min.css" rel="stylesheet">
   <link href="css/estilo.css" rel="stylesheet">
 
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-164745082-1"></script>
+
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-164745082-1');
+</script>
+
+<style>
+.modal-dialog {
+      max-width: 100%;
+      margin: 80px auto;
+  }
+.modal-body {
+  position:relative;
+  padding:0px;
+}
+.close {
+  position:absolute;
+  right:-30px;
+  top:0;
+  z-index:999;
+  font-size:2rem;
+  font-weight: normal;
+  color:#fff;
+  opacity:1;
+}
+</style> 
 </head>
 
-<body id="page-top">
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+<body>
     
-    <div class="container">
-           <a class="navbar-brand" href="index.html">
-            <img src="img/logo.png" alt="">
-          </a>
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Festival Deaf en Cancun, México</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav text-uppercase ml-auto">
-   
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#theaters">Theaters</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#conference">Conferences</a>
-          </li> 
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#dj">Dj</a>
-          </li> 
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#das">DANCE AND SINGERS</a>
-          </li> 
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#team">Team</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Hotels</a>
-            </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#maps">Maps</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="https://www.visitmexico.com/es/destinos-principales/quintana-roo/cancun">Cancún | Visit México</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
 
-  <!-- Header -->
-  <header class="masthead">
-    <div class="container">
+                      <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+                        
+                        <div class="container">
+                               <a class="navbar-brand" href="index.html">
+                                <img src="img/logo.png" alt="">
+                              </a>
+                          <a class="navbar-brand js-scroll-trigger" href="#page-top">Festival Deaf en Cancun, México</a>
+                          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fas fa-bars"></i>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarResponsive">
+                            <ul class="navbar-nav text-uppercase ml-auto">
+                       
+                              <li class="nav-item animate__animated animate__fadeInDown animate__delay-3s">
+                                <a class="nav-link js-scroll-trigger" href="#theaters">Theaters</a>
+                              </li>
+                              <li class="nav-item animate__animated animate__fadeInDown animate__delay-3s">
+                                <a class="nav-link js-scroll-trigger" href="#conference">Conferences</a>
+                              </li> 
+                              <li class="nav-item animate__animated animate__fadeInDown animate__delay-3s">
+                                <a class="nav-link js-scroll-trigger" href="#dj">Dj</a>
+                              </li> 
+                              <li class="nav-item animate__animated animate__fadeInDown animate__delay-3s">
+                                <a class="nav-link js-scroll-trigger" href="#das">DANCE AND SINGERS</a>
+                              </li> 
+                              <li class="nav-item animate__animated animate__fadeInDown animate__delay-3s">
+                                <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+                              </li>
+                              <li class="nav-item animate__animated animate__fadeInDown animate__delay-3s">
+                                  <a class="nav-link js-scroll-trigger" href="#services">Hotels</a>
+                                </li>
+                              <li class="nav-item animate__animated animate__fadeInDown animate__delay-3s">
+                                <a class="nav-link js-scroll-trigger" href="#maps">Maps</a>
+                              </li>
+                              <li class="nav-item animate__animated animate__fadeInDown animate__delay-3s">
+                                <a class="nav-link js-scroll-trigger" href="https://www.visitmexico.com/es/destinos-principales/quintana-roo/cancun">Cancún | Visit México</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </nav>
+                    
+                      <!-- Header -->
+                      <header class="masthead">
+                        <div class="container">
+                    
+                          <div class="intro-text">
+                            <div class="intro-lead-in animate__animated animate__backInDown animate__delay-2s">June 26 to July 3, 2022</div>
+                            <a href="https://logwork.com/countdown-f64" class="countdown-timer" data-timezone="America/Mazatlan" data-date="2022-06-26 00:00" data-background="#817b7b" data-digitscolor="#ffffff">Time</a>
+                            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger inf" href="inf.pdf"><i class="fas fa-info"></i> Inf</a>
+                            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="https://festival-deaf-en-cancun-mexico-2022.boletia.com"><i class="fas fa-ticket-alt"></i> Ticket</a>
+                            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="card.html"><i class="far fa-credit-card"></i> Card</a>
 
-      <div class="intro-text">
-        <div class="intro-lead-in">June 26 to July 3, 2022</div>
-        <a href="https://logwork.com/countdown-f64" class="countdown-timer" data-timezone="America/Mazatlan" data-date="2022-06-26 00:00" data-background="#817b7b" data-digitscolor="#ffffff">Time</a>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger inf" href="inf.pdf"><i class="fas fa-info"></i> Inf</a>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="https://festival-deaf-en-cancun-mexico-2022.boletia.com"><i class="fas fa-ticket-alt"></i> Ticket</a>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="card.html"><i class="far fa-credit-card"></i> Card</a>
-      </div>
-    </div>
-  </header>
+                            <div class="container">
+                            
+                            
+                            
+                              <!-- Button trigger modal -->
+                             <button type="button animate__animated animate__bounce animate__delay-2s" class="video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/5eNwrNl5T3w" data-target="#myModal">
+                              <i class="fa fa-play-circle animate__animated animate__fadeInDown animate__delay-3s" aria-hidden="true"></i>
+                             </button>
+                          
+                             <!-- Modal -->
+                             <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                               <div class="modal-dialog" role="document">
+                                 <div class="modal-content">
+                             
+                                   
+                                   <div class="modal-body">
+                             
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                       <span aria-hidden="true">&times;</span>
+                                     </button>        
+                                     <!-- 16:9 aspect ratio -->
+                             <div class="embed-responsive embed-responsive-16by9">
+                               <iframe class="embed-responsive-item animate__animated animate__fadeInDown animate__delay-3s" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                             </div>
+                                     
+                                     
+                                   </div>
+                             
+                                 </div>
+                               </div>
+                             </div> 
+                               
+                               
+                               
+                             </div>
+                             
 
- 
-
-
-  <!-- theaters -->
-<section class="bg-light page-section" id="theaters">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">THEATERS</h2>
-        </div>
-      </div>
-     <div class="row">
-        <div class="col-md-4 col-sm-6 theaters-item">
-          <a class="theaters-link" data-toggle="modal" href="#theatersModal1">
-            <img class="img-fluid" src="img/theaters/3.png" alt="">
-          </a>
-          <div class="theaters-caption">
-            <h4>IVONNE TELLEZ Y BERENICE UGALDE</h4>
-            <p class="text-muted">MEXICO</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 theaters-item">
-          <a class="theaters-link" data-toggle="modal" href="#theatersModal2">
-            <img class="img-fluid" src="img/theaters/1.png" alt="">
-          </a>
-          <div class="theaters-caption">
-            <h4>AKSU ALI</h4>
-            <p class="text-muted">ALEMANIA</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 theaters-item">
-          <a class="theaters-link" data-toggle="modal" href="#theatersModal3">
-            <img class="img-fluid" src="img/theaters/4.png" alt="">
-          </a>
-          <div class="theaters-caption">
-            <h4>CALOGERO LA BELLA Y ANNALISA
-              BETTO</h4>
-            <p class="text-muted">ITALIA</p>
-          </div>
-        </div>
-        <a href="theaters.html"><button type="button" class="btn btn-outline-warning">More</button></a>
-        </div>
-      </div> 
-    </div>
-  </section>  
-  
-
-
-  <!-- conference -->
-  <section class="bg-light page-section" id="conference">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">CONFERENCES</h2>
-          </div>
-        </div>
-       <div class="row">
-          <div class="col-md-4 col-sm-6 conference-item">
-            <a class="conference-link" data-toggle="modal" href="#conferenceModal1">
-              <img class="img-fluid" src="img/conferences/14.png" alt="">
-            </a>
-            <div class="conference-caption">
-              <h4>GABRIELA VALLS</h4>
-              <p class="text-muted">MEXICO</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 conference-item">
-            <a class="conference-link" data-toggle="modal" href="#conferenceModal2">
-              <img class="img-fluid" src="img/conferences/15.png" alt="">
-            </a>
-            <div class="conference-caption">
-              <h4>DAVID NIEBERDING AND JAMILA BEN</h4>
-              <p class="text-muted">BRUSELAS</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 conference-item">
-            <a class="conference-link" data-toggle="modal" href="#conferenceModal3">
-              <img class="img-fluid" src="img/conferences/5.png" alt="">
-            </a>
-            <div class="conference-caption">
-              <h4>RUBI GUDIÑO</h4>
-              <p class="text-muted">MEXICO</p>
-            </div>
-          </div>
-          <a href="conferences.html"><button type="button" class="btn btn-outline-warning">More</button></a>
-          </div>
-        </div> 
-      </div>
-    </section>  
-    
-   <!-- dj -->
-
-   <section class="bg-light page-section" id="dj">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">DJ</h2>
-        </div>
-      </div>
-     <div class="row">
-        <div class="col-md-4 col-sm-6 conference-item">
-          <a class="conference-link" data-toggle="modal" href="#conferenceModal1">
-            <img class="img-fluid" src="img/dj/1.png" alt="">
-          </a>
-          <div class="conference-caption">
-            <h4>LOOKS NICE</h4>
-            <p class="text-muted">USA</p>
-          </div>
-        </div>
-    </div>
-  </div> 
-</div>
-  </section>  
-     <!-- dance-and-singers -->
-     <section class="bg-light page-section" id="das">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">dance and singers</h2>
-          </div>
-        </div>
-       <div class="row">
-          <div class="col-md-4 col-sm-6 conference-item">
-            <a class="conference-link" data-toggle="modal" href="#conferenceModal1">
-              <img class="img-fluid" src="img/dance-and-singers/1.png" alt="">
-            </a>
-            <div class="conference-caption">
-              <h4>FELIPE LUIS Y VALENTINA SERRA</h4>
-              <p class="text-muted">COLOMBIA</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 conference-item">
-            <a class="conference-link" data-toggle="modal" href="#conferenceModal1">
-              <img class="img-fluid" src="img/dance-and-singers/2.png" alt="">
-            </a>
-            <div class="conference-caption">
-              <h4>CARLOS AMAYA</h4>
-              <p class="text-muted">MEXICO</p>
-            </div>
-          </div>
-      </div>
-    </div>
-    </section>  
-
-    <!-- dance-and-singers -->
-    <section class="bg-light page-section" id="das">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12 text-center">
-              <h2 class="section-heading text-uppercase">COMING SOON TOURIST</h2>
-            </div>
-          </div>
-        
-            </div>
-        </div>
-      </div>
-      </section>  
-    
-  
-  <!-- Team -->
-  <section class="bg-light page-section" id="team">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Team</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/1.png" alt="">
-            <h4>RONY ALEJANDRO SURIANO HERNANDEZ</h4>
-            <p class="text-muted">PRESIDENT</p>
-          </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
-              <h4>CARLOS JAVIER DIMAS GÓMEZ </h4>
-              <p class="text-muted">EVENT PLANNER</p>
-            </div>
-          </div>
-          <div class="col-sm-4">
-              <div class="team-member">
-                <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
-                <h4>RICARDO VELA CUPUL</h4>
-                <p class="text-muted">VICE-PRESIDENT</p>
-              </div>
-            </div>
-         <a href="team.html"><button type="button" class="btn btn-outline-warning">Work Team</button></a> 
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-
-  <!-- Services -->
-  <section class="page-section" id="services">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Hotels</h2>
-        </div>
-      </div>
-      <section class="py-5">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-3 col-sm-6">
-              <a href="#">
-                <img class="img-fluid d-block mx-auto" src="img/hotels/1.png" alt="">
-              </a>
-            </div>
-            <div class="col-md-3 col-sm-6">
-              <a href="#">
-                <img class="img-fluid d-block mx-auto grand" src="img/hotels/2.png" alt="">
-              </a>
-            </div>
-            <div class="col-md-3 col-sm-6">
-              <a href="#">
-                <img class="img-fluid d-block mx-auto hyatt" src="img/hotels/3.png" alt="">
-              </a>
-            </div>
-            <div class="col-md-3 col-sm-6">
-              <a href="#">
-                <img class="img-fluid d-block mx-auto aloft" src="img/hotels/4.png" alt="">
-              </a>
-            </div>
-            <div class="col-md-3 col-sm-6">
-              <a href="#">
-                <img class="img-fluid d-block mx-auto aloft" src="img/hotels/5.png" alt="">
-              </a>
-            </div>
-            <div class="col-md-3 col-sm-6">
-              <a href="#">
-                <img class="img-fluid d-block mx-auto aloft" src="img/hotels/6.png" alt="">
-              </a>
-            </div>
-            <div class="col-md-3 col-sm-6">
-              <a href="#">
-                <img class="img-fluid d-block mx-auto aloft" src="img/hotels/7.png" alt="">
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-      <div class="intro-text-centro">
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="hotels.html"><i class="fas fa-hotel"></i> Hotels</a>
-      </div>
-    </div>
-  </section>
-
-        <div class="col-md-6 maps" id="maps">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.4441829484854!2d-86.74912278457259!3d21.134714385941155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4c2c09dc820c41%3A0x2f257685e799c209!2sCanc%C3%BAn%20ICC!5e0!3m2!1ses!2smx!4v1567833733710!5m2!1ses!2smx" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-        </div>
-
-        <div class="col-md-6 imgcancun">
-          <img src="img/cancunicc.jpg" alt="">
-        </div>     
-
-  <!-- Clients -->
-  <section class="py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto lsm" src="img/logos/logo1.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="https://deaftech.com.mx/">
-              <img class="img-fluid d-block mx-auto deaftech" src="img/logos/deaftech.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="https://cancunicc.com/">
-              <img class="img-fluid d-block mx-auto cancun" src="img/logos/logo3.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto senas" src="img/logos/logo4.jpg" alt="">
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-  
-
-
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-md-4">
-          <span class="copyright">DeafTech 2019</span>
-        </div>
-        <div class="col-md-4">
-          <ul class="list-inline social-buttons">
-     
-            <li class="list-inline-item">
-              <a href="https://www.facebook.com/Festival-Deaf-en-Cancun-M%C3%A9xico-353664648648251/">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-            </li>
-          
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <ul class="list-inline quicklinks">
-            <li class="list-inline-item">
-              <a href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <!-- conference Modals -->
-
+                          
+                          </div>
+                        </div>
+                      </header>
+                    
+                     
+                    
+                    <div class="fondo">
+                      <!-- theaters -->
+                    <section class="page-section" id="theaters">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-lg-12 text-center animate__animated animate__backInDown animate__delay-2s">
+                              <h2 class="section-heading text-uppercase">THEATERS</h2>
+                            </div>
+                          </div>
+                         <div class="row">
+                            <div class="col-md-4 col-sm-6 theaters-item animate__animated animate__fadeInDown animate__delay-3s">
+                              <a class="theaters-link" data-toggle="modal" href="#theatersModal1">
+                                <img class="mx-auto rounded-circle " src="img/theaters/3.png" alt="">
+                              </a>
+                              <div class="theaters-caption">
+                                <h4>IVONNE TELLEZ Y BERENICE UGALDE</h4>
+                                <p class="text-muted">MEXICO</p>
+                              </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 theaters-item animate__animated animate__fadeInDown animate__delay-3s">
+                              <a class="theaters-link" data-toggle="modal" href="#theatersModal2">
+                                <img class="mx-auto rounded-circle animate__animated animate__fadeInDown animate__delay-3s" src="img/theaters/1.png" alt="">
+                              </a>
+                              <div class="theaters-caption">
+                                <h4>AKSU ALI</h4>
+                                <p class="text-muted">ALEMANIA</p>
+                              </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 theaters-item animate__animated animate__fadeInDown animate__delay-3s">
+                              <a class="theaters-link" data-toggle="modal" href="#theatersModal3">
+                                <img class="mx-auto rounded-circle animate__animated animate__fadeInDown animate__delay-3s" src="img/theaters/4.png" alt="">
+                              </a>
+                              <div class="theaters-caption">
+                                <h4>CALOGERO LA BELLA Y ANNALISA
+                                  BETTO</h4>
+                                <p class="text-muted">ITALIA</p>
+                              </div>
+                            </div>
+                            <a href="theaters.html"><button type="button" class="btn btn-outline-warning">More</button></a>
+                            </div>
+                          </div> 
+                      </section>  
+                      
+                    
+                    
+                      <!-- conference -->
+                      <section class="page-section" id="conference">
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-lg-12 text-center">
+                                <h2 class="section-heading text-uppercase">CONFERENCES</h2>
+                              </div>
+                            </div>
+                           <div class="row">
+                              <div class="col-md-4 col-sm-6 conference-item animate__animated animate__fadeInDown animate__delay-3s">
+                                <a class="conference-link" data-toggle="modal" href="#conferenceModal1">
+                                  <img class="mx-auto rounded-circle animate__animated animate__fadeInDown animate__delay-3s" src="img/conferences/14.png" alt="">
+                                </a>
+                                <div class="conference-caption">
+                                  <h4>GABRIELA VALLS</h4>
+                                  <p class="text-muted">MEXICO</p>
+                                </div>
+                              </div>
+                              <div class="col-md-4 col-sm-6 conference-item animate__animated animate__fadeInDown animate__delay-3s">
+                                <a class="conference-link" data-toggle="modal" href="#conferenceModal2">
+                                  <img class="mx-auto rounded-circle animate__animated animate__fadeInDown animate__delay-3s" src="img/conferences/15.png" alt="">
+                                </a>
+                                <div class="conference-caption">
+                                  <h4>DAVID NIEBERDING AND JAMILA BEN</h4>
+                                  <p class="text-muted">BRUSELAS</p>
+                                </div>
+                              </div>
+                              <div class="col-md-4 col-sm-6 conference-item animate__animated animate__fadeInDown animate__delay-3s">
+                                <a class="conference-link" data-toggle="modal" href="#conferenceModal3">
+                                  <img class="mx-auto rounded-circle animate__animated animate__fadeInDown animate__delay-3s" src="img/conferences/5.png" alt="">
+                                </a>
+                                <div class="conference-caption">
+                                  <h4>RUBI GUDIÑO</h4>
+                                  <p class="text-muted">MEXICO</p>
+                                </div>
+                              </div>
+                              <a href="conferences.html"><button type="button" class="btn btn-outline-warning">More</button></a>
+                              </div>
+                            </div> 
+                        </section>  
+                        
+                       <!-- dj -->
+                    
+                       <section class="page-section" id="dj">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-lg-12 text-center">
+                              <h2 class="section-heading text-uppercase">DJ</h2>
+                            </div>
+                          </div>
+                         <div class="row">
+                            <div class="col-md-4 col-sm-6 conference-item animate__animated animate__fadeInDown animate__delay-3s">
+                              <a class="conference-link" data-toggle="modal" href="#conferenceModal1">
+                                <img class="mx-auto rounded-circle animate__animated animate__fadeInDown animate__delay-3s" src="img/dj/1.png" alt="">
+                              </a>
+                              <div class="conference-caption">
+                                <h4>LOOKS NICE</h4>
+                                <p class="text-muted">USA</p>
+                              </div>
+                            </div>
+                        </div>
+                      </div> 
+                      </section>  
+                         <!-- dance-and-singers -->
+                         <section class="page-section" id="das">
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-lg-12 text-center">
+                                <h2 class="section-heading text-uppercase">dance and singers</h2>
+                              </div>
+                            </div>
+                           <div class="row">
+                              <div class="col-md-4 col-sm-6 conference-item animate__animated animate__fadeInDown animate__delay-3s">
+                                <a class="conference-link" data-toggle="modal" href="#conferenceModal1">
+                                  <img class="mx-auto rounded-circle animate__animated animate__fadeInDown animate__delay-3s" src="img/dance-and-singers/1.png" alt="">
+                                </a>
+                                <div class="conference-caption">
+                                  <h4>FELIPE LUIS Y VALENTINA SERRA</h4>
+                                  <p class="text-muted">COLOMBIA</p>
+                                </div>
+                              </div>
+                              <div class="col-md-4 col-sm-6 conference-item animate__animated animate__fadeInDown animate__delay-3s">
+                                <a class="conference-link" data-toggle="modal" href="#conferenceModal1">
+                                  <img class="mx-auto rounded-circle animate__animated animate__fadeInDown animate__delay-3s" src="img/dance-and-singers/2.png" alt="">
+                                </a>
+                                <div class="conference-caption">
+                                  <h4>CARLOS AMAYA</h4>
+                                  <p class="text-muted">MEXICO</p>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        </section>  
+                    
+                        <!-- dance-and-singers -->
+                        <section class="page-section" id="das">
+                            <div class="container">
+                              <div class="row">
+                                <div class="col-lg-12 text-center">
+                                  <h2 class="section-heading text-uppercase">COMING SOON TOURIST</h2>
+                                </div>
+                              </div>
+                            
+                                </div>
+                          </section>  
+                        
+                      
+                      <!-- Team -->
+                      <section class="page-section" id="team">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-lg-12 text-center">
+                              <h2 class="section-heading text-uppercase">Team</h2>
+                            </div>
+                          </div>
+                          <div class="row jefe">
+                            <div class="col-sm-4">
+                              <div class="team-member">
+                                <img class="mx-auto rounded-circle animate__animated animate__fadeInDown animate__delay-3s" src="img/team/1.png" alt="">
+                                <h4>RONY ALEJANDRO SURIANO HERNANDEZ</h4>
+                                <p class="text-muted">PRESIDENT</p>
+                              </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="team-member">
+                                  <img class="mx-auto rounded-circle animate__animated animate__fadeInDown animate__delay-3s" src="img/team/2.jpg" alt="">
+                                  <h4>CARLOS JAVIER DIMAS GÓMEZ </h4>
+                                  <p class="text-muted">EVENT PLANNER</p>
+                                </div>
+                              </div>
+                              <div class="col-sm-4">
+                                  <div class="team-member">
+                                    <img class="mx-auto rounded-circle animate__animated animate__fadeInDown animate__delay-3s" src="img/team/3.jpg" alt="">
+                                    <h4>RICARDO VELA CUPUL</h4>
+                                    <p class="text-muted">VICE-PRESIDENT</p>
+                                  </div>
+                                </div>
+                             <a href="team.html"><button type="button" class="btn btn-outline-warning">Work Team</button></a> 
+                            </div>
+                          </div>
+                      </section>
+                     </div>
+                    
+                      <!-- Services -->
+                      <section class="page-section" id="services">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-lg-12 text-center">
+                              <h2 class="section-heading text-uppercase">Hotels</h2>
+                            </div>
+                          </div>
+                          <section class="py-5">
+                            <div class="container">
+                              <div class="row">
+                                <div class="col-md-3 col-sm-6">
+                                  <a href="#">
+                                    <img class="img-fluid d-block d-block mx-auto" src="img/hotels/1.png" alt="">
+                                  </a>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                  <a href="#">
+                                    <img class="img-fluid d-block mx-auto grand" src="img/hotels/2.png" alt="">
+                                  </a>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                  <a href="#">
+                                    <img class="img-fluid d-block mx-auto hyatt" src="img/hotels/3.png" alt="">
+                                  </a>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                  <a href="#">
+                                    <img class="img-fluid d-block mx-auto aloft" src="img/hotels/4.png" alt="">
+                                  </a>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                  <a href="#">
+                                    <img class="img-fluid d-block mx-auto aloft" src="img/hotels/5.png" alt="">
+                                  </a>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                  <a href="#">
+                                    <img class="img-fluid d-block mx-auto aloft" src="img/hotels/6.png" alt="">
+                                  </a>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                  <a href="#">
+                                    <img class="img-fluid d-block mx-auto aloft" src="img/hotels/7.png" alt="">
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </section>
+                          <div class="intro-text-centro">
+                            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="hotels.html"><i class="fas fa-hotel"></i> Hotels</a>
+                          </div>
+                        </div>
+                      </section>
+                    
+                            <div class="col-md-6 maps" id="maps">
+                              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.4441829484854!2d-86.74912278457259!3d21.134714385941155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4c2c09dc820c41%3A0x2f257685e799c209!2sCanc%C3%BAn%20ICC!5e0!3m2!1ses!2smx!4v1567833733710!5m2!1ses!2smx" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                            </div>
+                    
+                            <div class="col-md-6 imgcancun">
+                              <img src="img/cancunicc.jpg" alt="">
+                            </div>     
+                    
+                      <!-- Clients -->
+                      <section class="py-5">
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-md-3 col-sm-6">
+                                <a href="#">
+                                  <img class="img-fluid d-block mx-auto lsm" src="img/logos/logo1.jpg" alt="">
+                                </a>
+                              </div>
+                              <div class="col-md-3 col-sm-6">
+                                <a href="https://deaftech.com.mx/">
+                                  <img class="img-fluid d-block mx-auto deaftech" src="img/logos/deaftech.jpg" alt="">
+                                </a>
+                              </div>
+                              <div class="col-md-3 col-sm-6">
+                                <a href="https://cancunicc.com/">
+                                  <img class="img-fluid d-block mx-auto cancun" src="img/logos/logo3.jpg" alt="">
+                                </a>
+                              </div>
+                              <div class="col-md-3 col-sm-6">
+                                <a href="#">
+                                  <img class="img-fluid d-block mx-auto senas" src="img/logos/logo4.jpg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </section>
+                      
+                    
+                    
+                      <!-- Footer -->
+                      <footer class="footer">
+                        <div class="container">
+                          <div class="row align-items-center">
+                            <div class="col-md-4">
+                              <span class="copyright">DeafTech 2019</span>
+                            </div>
+                            <div class="col-md-4">
+                              <ul class="list-inline social-buttons">
+                         
+                                <li class="list-inline-item animate__animated animate__fadeInDown animate__delay-3s">
+                                  <a href="https://www.facebook.com/Festival-Deaf-en-Cancun-M%C3%A9xico-353664648648251/">
+                                    <i class="fab fa-facebook-f"></i>
+                                  </a>
+                                </li>
+                              
+                              </ul>
+                            </div>
+                            <div class="col-md-4">
+                              <ul class="list-inline quicklinks">
+                                <li class="list-inline-item animate__animated animate__fadeInDown animate__delay-3s">
+                                  <a href="#">Contact</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </footer>
+                    
+                      <!-- conference Modals -->
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
+  
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Plugin JavaScript -->
@@ -440,6 +511,48 @@
   <script src="js/agency.min.js"></script>
 
   <script src="https://cdn.logwork.com/widget/countdown.js"></script>
+  
+  </div>
+
+
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+<script>
+  $(document).ready(function() {
+  // Gets the video src from the data-src on each button
+  var $videoSrc;  
+  $('.video-btn').click(function() {
+      $videoSrc = $(this).data( "src" );
+  });
+  console.log($videoSrc);
+  // when the modal is opened autoplay it  
+  $('#myModal').on('shown.bs.modal', function (e) {
+  // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
+  $("#video").attr('src',$videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" ); 
+  })
+  // stop playing the youtube video when I close the modal
+  $('#myModal').on('hide.bs.modal', function (e) {
+      // a poor man's stop video
+      $("#video").attr('src',$videoSrc); 
+  }) 
+  // document ready  
+  });
+  </script>
+
 
 </body>
 

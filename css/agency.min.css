@@ -373,6 +373,8 @@ header.masthead .intro-text .intro-heading{
 .team-member h4{
     margin-top:25px;
     margin-bottom:0;
+    color: #fff;
+    text-shadow: 3px 2px #000000;
 }
 .team-member p{
     margin-top:0
@@ -472,7 +474,7 @@ ul.social-buttons li a:active,ul.social-buttons li a:focus,ul.social-buttons li 
     max-width:400px;
     margin:0 auto;
     cursor:pointer;
-    background: #fff;
+    /* background: #fff; */
     padding: 15px;
     text-align: center;
 }
@@ -601,7 +603,7 @@ ul.social-buttons li a:active,ul.social-buttons li a:focus,ul.social-buttons li 
     max-width:400px;
     margin:0 auto;
     cursor:pointer;
-    background: #fff;
+    /* background: #fff; */
     padding: 15px;
     text-align: center;
 }
@@ -725,7 +727,7 @@ ul.social-buttons li a:active,ul.social-buttons li a:focus,ul.social-buttons li 
 }
 
 .bg-light {
-    background-color: #ffffff !important;
+    /* background-color: #ffffff !important; */
 }
 
 a.btn.btn-primary.btn-xl.text-uppercase.js-scroll-trigger.inf {

@@ -126,3 +126,73 @@ section#conference a {
 img.img-fluid.card {
     margin: auto;
 }
+.fondo {
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: bottom;
+    background-size: cover;
+    display: block;
+    /* background: aliceblue; */
+}
+.team-member p {
+    color: #fff !important;
+    text-shadow: 2px 1px #000000;
+}
+
+section#theaters h4 {
+    color: #fff;
+}
+
+section#theaters p {
+    color: #fff !important;
+}
+
+section#conference h4 {
+    color: #fff;
+}
+
+
+section#conference p {
+    color: #fff !important;
+}
+.conference-caption h4 {
+    color: #fff;
+}
+.conference-caption p {
+    color: #fff !important;
+}
+
+
+.row.jefe {
+    margin-bottom: 346px;
+}
+
+.embed-responsive.embed-responsive-16by9 {
+    background: #000;
+}
+button.close {
+    margin-right: 31px;
+    font-size: 50px;
+}
+
+button.video-btn {
+    background: none;
+    border: none;
+}
+button.video-btn:hover {
+    background: none;
+    border: none;
+}
+
+i.fa.fa-play-circle {
+    font-size: 100px;
+    color: #ffffffb5;
+}
+
+
+
+
+
+
+
